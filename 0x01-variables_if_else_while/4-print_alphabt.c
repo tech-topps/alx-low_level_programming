@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - printing all letters except q and e
+ * main - Empty point
  *
- * Result: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
