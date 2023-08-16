@@ -8,18 +8,20 @@
 
 int main(void)
 {
-int val1 = 1;
-int val2 = 2;
-int next;
+unsigned long int val1 = 1;
+unsigned long int val2 = 2;
+unsigned long int next;
 int i;
 
-printf("%d, ", val1);
+printf("%lu, ", val1);
 for (i = 1 ; i < 50 ; i++)
 {
-printf("%d", val2);
+printf("%lu", val2);
 next = val1 + val2;
 val1 = val2;
 val2 = next;
+if (i != 49)
+	printf(", ");
 }
 printf("\n");
 return (0);
